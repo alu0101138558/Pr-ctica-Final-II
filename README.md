@@ -9,9 +9,9 @@
 2. [Aspectos del juego](#id2)
 3. [Cuestiones importantes para el uso](#id3)
 4. [Hitos de programación](#id4)
-5. [Realización de la modificación](#id5)
-6. [Conclusiones breves](#id6)
-
+5. [Aspectos que destacarías en la aplicación](#id5)
+6. [Gif animado de ejecución](#id6)
+7. [Reparto de tareas](#id7)
 
 <div id='id1' />
 
@@ -131,9 +131,11 @@ Debido a la naturaleza del videojuego desarrollado y los géneros en los que est
 
 Por su parte, en ***Mundo Bosque*** se emplea ***OnPointerEnter*** para la recolección de los champiñones necesarios para superar el nivel.
 
+<div id='id5' />
+
 ## Aspectos que destacarías en la aplicación. Especificar si se han incluido sensores de los que se han trabajado en interfaces multimodales.
 
-Los aspectos que consideramos como más positivos para ser destacados del juego son los siguientes:
+Los aspectos que consideramos positivos en el juego, y que están vinculados con la experiencia de usuario en un entorno VR, son los siguientes:
 
 * Darle la posibilidad al jugador de iniciar la partida cuando este se considere preparado.
 
@@ -147,8 +149,13 @@ Los aspectos que consideramos como más positivos para ser destacados del juego 
 
 * La camara no se mueve sin la propia intención del usuario. Esta siempre estará vinculada al mismo, ya que si se desplazase por la escena para mostrar diferentes elementos en la misma, se podría producir sensación de mareo.
 
+Hemos de destacar además, la nula implementación de sensores en el videojuego fundamentalmente debido a que, bajo nuestra percepción, resultan poco útiles para la misma por diversos motivos, siendo el principal que desfavorecían la experiencia de usuario en un entorno VR. Sensores como el acelerómetro implicarían la necesidad de que el jugador se desplazara (con los ojos tapados por la VR) si se plantea captar alguna medida. Otros, como el GPS, aportan una medida inicial que de difícil manera se podría trasladar a una aplicación de nuestras características.
+
+<div id='id6' />
 
 ## Gif animado de ejecución
+
+<div id='id7' />
 
 ## Reparto de tareas
 
