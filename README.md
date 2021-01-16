@@ -133,7 +133,7 @@ Por su parte, en ***Mundo Bosque*** se emplea ***OnPointerEnter*** para la recol
 
 ## Aspectos que destacarías en la aplicación. Especificar si se han incluido sensores de los que se han trabajado en interfaces multimodales.
 
-Los aspectos que considero más positivos para ser destacados del juego desarrollado son los siguientes:
+Los aspectos que consideramos como más positivos para ser destacados del juego son los siguientes:
 
 * Darle la posibilidad al jugador de iniciar la partida cuando este se considere preparado.
 
@@ -192,4 +192,3 @@ Los aspectos que considero más positivos para ser destacados del juego desarrol
     - Realización del informe.
     - Búsqueda de utilidades y assets en internet.
     - Planteamiento inicial del proyecto (decisión de la temática entre otras cuestiones).
-
