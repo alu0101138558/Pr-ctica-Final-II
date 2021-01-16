@@ -123,7 +123,30 @@ Todos los sonidos que hemos incluido en el juego han sido establecidos gracias d
 <img src="images/sonidoejemplo.png">
 </p>
 
+### ***Gestión de eventos***
+
+Debido a la naturaleza del videojuego desarrollado y los géneros en los que este se puede categorizar, no nos ha resultado necesario la realización de ningún evento propio. En su lugar, nos hemos bastado con los incluídos nativamente en Unity y ligados a sus componentes, especialmente "Collider". Eventos como ***OnColliderEnter*** son utilizados para gestionar la apertura de puertas y el funcionamiento general de los portales. Así mismo, y en la misma sintonía, ***OnColliderExit*** es utilizado para determinar cuando es necesario cerrarlas.
+
+***OnTriggerEnter*** se utiliza en ***Mundo Lava*** para gestionar el contacto del jugador con el elemento principal del nivel que da nombre al mismo. 
+
+Por su parte, en ***Mundo Bosque*** se emplea ***OnPointerEnter*** para la recolección de los champiñones necesarios para superar el nivel.
+
 ## Aspectos que destacarías en la aplicación. Especificar si se han incluido sensores de los que se han trabajado en interfaces multimodales.
+
+Los aspectos que considero más positivos para ser destacados del juego desarrollado son los siguientes:
+
+* Darle la posibilidad al jugador de iniciar la partida cuando este se considere preparado.
+
+* Evitar el uso de texto en el juego, posibilitando así que una mayor cantidad de personas puedan disfrutarlo, la información dada esta establecida a través de imágenes.
+
+* Baja sención de mareo, esto ha sido posible gracias a la evasión de movimientos bruscos en la cabeza, podría pensarse que al tratarse de un juego de plataformas los movimientos de la misma serían frecuentes, pero lo hemos evitando adaptando el tamaño de los obstaculos a las circunstancias.
+
+* El uso de colores no brillantes, para evitar dañarle la vista al jugador.
+
+* El sonido al atravesar portales nos sirve para suavizar el cambio de escenas, ya que advierte de lo que va a ocurrir, y solo se dá cuando termina la reproducción del mismo.
+
+* La camara no se mueve sin la propia intención del usuario. Esta siempre estará vinculada al mismo, ya que si se desplazase por la escena para mostrar diferentes elementos en la misma, se podría producir sensación de mareo.
+
 
 ## Gif animado de ejecución
 
@@ -162,7 +185,7 @@ Todos los sonidos que hemos incluido en el juego han sido establecidos gracias d
         - Modelaje de la escena.
         - GameObjects de la escena.
     - Gestión de portales (conectores entre niveles).
-    
+
 - Común.
     - Gestión de eventos.
     - Realización e implementación de scripts.
