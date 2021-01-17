@@ -303,3 +303,8 @@ Ya solo restará completar el laberinto aleatorio que se haya generado.
     - Realización del informe.
     - Búsqueda de utilidades y assets en internet.
     - Planteamiento inicial del proyecto (decisión de la temática entre otras cuestiones).
+
+### ***Enlaces de interés***
+
+* [Acceso a los Scripts desarrollados](Scripts)
+* [Google drive con el proyecto y el APK](https://drive.google.com/drive/folders/1CCyCUuU9NQ2yr_v39SfyQvMMqZyD5TxO?usp=sharing)
