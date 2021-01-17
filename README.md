@@ -1,16 +1,19 @@
-# Proyecto de VR: Cyberwork 2077
+# Proyecto VR: Cyberwork 2077
+
 ### **Autores**:
 - Florentín Pérez Glez.(alu0101100654)
 - Adrián Emilio Padilla Rojas(alu0108558)
 - Javier Duque Melguizo (alu0101160337)
 - Eduardo Suarez Ojeda (alu0100896565)
+
 # Índice
+
 1. [Introducción](#id1)
 2. [Aspectos del juego](#id2)
 3. [Cuestiones importantes para el uso](#id3)
 4. [Hitos de programación](#id4)
 5. [Aspectos que destacarías en la aplicación](#id5)
-6. [Gif animado de ejecución](#id6)
+6. [Gif animados de ejecución](#id6)
 7. [Reparto de tareas](#id7)
 
 <div id='id1' />
@@ -42,7 +45,7 @@ El juego posee diversas implementaciones y características de interés que ser�
 
 ## Cuestiones importantes para el uso
 
-Para comenzar a abarcar todas estas cuestiones, tenemos que tener en cuenta que tanto el desarrollo del juego, como su jugabilidad, han sido ideados para poder ser disfrutados mediante las **Google Cardoboard** o cualquier **otras gafas de RV** que puedan suplir su misma función en un dispositivo móvil. Además, el uso de la mismas es indispensable, ya que la rotación de la cámara del personaje dependerá del eje de visión del jugador.
+Para comenzar a abarcar todas estas cuestiones, debemos tener en cuenta que tanto el desarrollo del juego, como su jugabilidad, han sido ideados para poder ser disfrutados mediante las **Google Cardoboard** o cualquier **otras gafas de RV** que puedan suplir su misma función en un dispositivo móvil. Además, el uso de estas es indispensable, ya que la rotación de la cámara del personaje dependerá del eje de visión del jugador.
 
 El otro elemento fundamentental será un **mando**. Su conexión al móvil debe ser posible a traves de bluethooth y, recomendablemente, debe ser de tipo **PS4** o **Xbox**, ya que el botón que se emplea para realizar la opción de salto y movimiento por el menú principal ha sido ideada ser empleada por los botones más estandararizados para dichos mandos (X/A).
 
@@ -85,7 +88,7 @@ Este mundo se caracteriza por una ambientación de tipo *bosque alegre de fantas
 
 El objetivo del jugador en este lugar es recolectar cinco champiñones dorados. Los dos primeros son muy obvios, y están pensados para que familiarizarnos con el sistema de recolección, pero los siguientes solo serán accesibles a través de un recorrido de plataformas.
 
-Una vez completadas las tareas, aparecerá un nuevo portal de color morado que al ser atravesado, se interpretará como que el nivel ha sido superado.
+Una vez completadas las tareas, aparecerá un nuevo portal de color morado que, al ser atravesado, se interpretará como que el nivel ha sido superado.
 
 <p align="center">
 <img src="images/bosque.png">
@@ -117,7 +120,7 @@ Las plataformas mantienen todas formas distintas, además de las distancias de s
 
 ### ***Sonido***
 
-Todos los sonidos que hemos incluido en el juego han sido establecidos gracias de la herramienta *AudioClip*, siendo asignados a cada uno de los objetos en los que se realiza una interacción. Es por ello que en ciertos casos (como al atravesar portales o tocar la lava), el evento correspondiente no ocurre directamente, sino que se espera a la finalización del clip de audio para su ejecución.
+Todos los sonidos que hemos incluido en el juego han sido establecidos gracias de la herramienta *AudioClip*, siendo asignados a cada uno de los objetos en los que se realiza una interacción. Es por ello por lo que en ciertos casos (como al atravesar portales o tocar la lava), el evento correspondiente no ocurre directamente, sino que se espera a la finalización del clip de audio para su ejecución.
 
 <p align="center">
 <img src="images/sonidoejemplo.png">
@@ -141,19 +144,105 @@ Los aspectos que consideramos positivos en el juego, y que están vinculados con
 
 * Evitar el uso de texto en el juego, posibilitando así que una mayor cantidad de personas puedan disfrutarlo, la información dada esta establecida a través de imágenes.
 
-* Baja sención de mareo, esto ha sido posible gracias a la evasión de movimientos bruscos en la cabeza, podría pensarse que al tratarse de un juego de plataformas los movimientos de la misma serían frecuentes, pero lo hemos evitando adaptando el tamaño de los obstaculos a las circunstancias.
+* Baja sención de mareo, esto ha sido posible gracias a la evasión de movimientos bruscos en la cabeza, podría pensarse que al tratarse de un juego de plataformas los movimientos de esta serían frecuentes, pero lo hemos evitado adaptando el tamaño de los obstaculos a las circunstancias.
 
 * El uso de colores no brillantes, para evitar dañarle la vista al jugador.
 
-* El sonido al atravesar portales nos sirve para suavizar el cambio de escenas, ya que advierte de lo que va a ocurrir, y solo se dá cuando termina la reproducción del mismo.
+* El sonido al atravesar portales nos sirve para suavizar el cambio de escenas, ya que, advierte de lo que va a ocurrir, y solo se dá cuando termina la reproducción de este.
 
 * La camara no se mueve sin la propia intención del usuario. Esta siempre estará vinculada al mismo, ya que si se desplazase por la escena para mostrar diferentes elementos en la misma, se podría producir sensación de mareo.
 
-Hemos de destacar además, la nula implementación de sensores en el videojuego fundamentalmente debido a que, bajo nuestra percepción, resultan poco útiles para la misma por diversos motivos, siendo el principal que desfavorecían la experiencia de usuario en un entorno VR. Sensores como el acelerómetro implicarían la necesidad de que el jugador se desplazara (con los ojos tapados por la VR) si se plantea captar alguna medida. Otros, como el GPS, aportan una medida inicial que de difícil manera se podría trasladar a una aplicación de nuestras características.
+Hemos de destacar, además, la nula implementación de sensores en el videojuego fundamentalmente debido a que, bajo nuestra percepción, resultan poco útiles para la misma por diversos motivos, siendo el principal que desfavorecían la experiencia de usuario en un entorno VR. Sensores como el acelerómetro implicarían la necesidad de que el jugador se desplazara (con los ojos tapados por la VR) si se plantea captar alguna medida. Otros, como el GPS, aportan una medida inicial que de difícil manera se podría trasladar a una aplicación de nuestras características.
 
 <div id='id6' />
 
-## Gif animado de ejecución
+## Gif animados de ejecución
+
+Esta es la pantalla que aparece al iniciar la aplicación.
+
+<p align="center">
+<img src="images/inicio.gif">
+</p>
+
+Se puede acceder a controles para comprobar los botones del mando que serán empleados en el juego.
+
+<p align="center">
+<img src="images/acceso_controles.gif">
+</p>
+
+Al darle a jugar apareceremos en la sala principal, en ella encontraremos un cartel que nos explicará cual es nuestra misión.
+
+<p align="center">
+<img src="images/lobby.gif">
+</p>
+
+Seleccionarémos una de las dos puertas para dar comienzo a nuestra aventura, en este caso se trata del mundo del **bosque**.
+
+<p align="center">
+<img src="images/entrada_bosque.gif">
+</p>
+
+Dentro de este mundo nuestra misión será **recolectar 5 champiñones dorados**, el primero de ellos se encontrará en la parte trasera del comienzo del nivel.
+
+<p align="center">
+<img src="images/champi1.gif">
+</p>
+
+El segundo de ellos lo tomaremos del cartel explicativo de la misión.
+
+<p align="center">
+<img src="images/champi2.gif">
+</p>
+
+El tercero se encotrará sobre el árbol de la colina, tanto este como el siguiente serán recogidos a través de un circuito de plataformas.
+
+<p align="center">
+<img src="images/champi3.gif">
+</p>
+
+El cuarto se hallará en la cima de las plataformas.
+
+<p align="center">
+<img src="images/champi4.gif">
+</p>
+
+El último se conseguirá a través de otro recorrido de plataformas, este nos guiará hacia una cabaña donde encontraremos un agujero que, al dejarnos caer por él, accederemos a un portal que nos conducirá al último champiñon.
+
+<p align="center">
+<img src="images/champi5.gif">
+</p>
+
+Después de completar este nivel, atravesando su portal morado correspondiente, será hora de pasar al mundo de la **lava**.
+
+<p align="center">
+<img src="images/entrada_lava.gif">
+</p>
+
+Como comentabamos anteriormente, nuestra misión será la de escapar de la lava atravesando el siguiente circuito de obstáculos.
+
+<p align="center">
+<img src="images/lava1.gif">
+</p>
+
+<p align="center">
+<img src="images/lava2.gif">
+</p>
+
+<p align="center">
+<img src="images/lava3.gif">
+</p>
+
+Por último, volverémos a la sala principal donde verémos que todos los desafios han sido completados y podrémos acceder a la sala final.
+
+<p align="center">
+<img src="images/objetivos_completos.gif">
+</p>
+
+Ya solo restará completar el laberinto aleatorio que se haya generado.
+
+<p align="center">
+<img src="images/laberinto.gif">
+</p>
 
 <div id='id7' />
 
