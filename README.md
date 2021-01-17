@@ -106,6 +106,21 @@ Las plataformas mantienen todas formas distintas, además de las distancias de s
 
 ### **Mundo ***Laberinto*****
 
+Este mundo, accesible directamente desde el *Lobby* una vez se han completado los otros dos niveles descritos anteriormente, consiste, como su nombre indica, en sortear un laberinto generado proceduralmente usando el algoritmo *'HuntAndKill'*, un algoritmo de generación de laberintos rectangulares que describen cuadriculas y que tiene la ventaja de asegurar que todos los caminos que se creen en el laberinto, se encontraran conectados y por lo tanto, accesibles, maximizando el uso del espacio asignado al laberinto en su generación. A continuación, un ejemplo de generación de laberinto aplicando el algoritmo:
+
+<p align="center">
+<img src="images/huntAndKill.gif">
+</p>
+
+A modo de documentación, el script responsable de la generación del laberinto recibe de argumento ('cell prefab') un **prefab** que debe contener cuatro **GameObject** (que representen muros) con los siguientes nombres:
+
+* Wall-North
+* Wall-East
+* Wall-South
+* Wall-West
+
+Estos nombres son importantes, pues es la forma que tiene el algoritmo de saber que muros 'tumbar' en su trayecto cada vez que elige al azar una de las cuatro direcciones disponible.
+
 **Antes de iniciar el juego**
 
 <p align="center">
