@@ -83,7 +83,7 @@ Este mundo se caracteriza por una ambientación de tipo *bosque alegre de fantas
 * Distintos tipos de árboles.
 * Champiñones.
 * Rocas.
-* Flores y hierva.
+* Flores y hierba.
 * Una casa.
 
 El objetivo del jugador en este lugar es recolectar cinco champiñones dorados. Los dos primeros son muy obvios, y están pensados para que familiarizarnos con el sistema de recolección, pero los siguientes solo serán accesibles a través de un recorrido de plataformas.
