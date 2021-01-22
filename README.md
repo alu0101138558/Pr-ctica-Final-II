@@ -20,7 +20,7 @@
 
 ## Introducción
 
-El proyecto realizado se trata de un juego VR para dispositivos móviles Android al que hemos denominado ***CiberWork2077***. Se trata de un juego fundamentalmente de plataformas y exploración en la que el jugador deberá desenvolverse en distintos entornos hasta alcanzar la victoria, entendida esta como la finalización del juego en sí.
+El proyecto realizado se trata de un juego VR para dispositivos móviles Android al que hemos denominado ***CyberWork2077***. Se trata de un juego fundamentalmente de plataformas y exploración en la que el jugador deberá desenvolverse en distintos entornos hasta alcanzar la victoria, entendida esta como la finalización del juego en sí.
 
 <div id='id2' />
 
