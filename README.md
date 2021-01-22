@@ -135,7 +135,7 @@ Estos nombres son importantes, pues es la forma que tiene el algoritmo de saber 
 
 ### ***Sonido***
 
-Todos los sonidos que hemos incluido en el juego han sido establecidos gracias de la herramienta *AudioClip*, siendo asignados a cada uno de los objetos en los que se realiza una interacción. Es por ello por lo que en ciertos casos (como al atravesar portales o tocar la lava), el evento correspondiente no ocurre directamente, sino que se espera a la finalización del clip de audio para su ejecución.
+Todos los sonidos que hemos incluido en el juego han sido establecidos gracias a la herramienta *AudioClip*, siendo asignados a cada uno de los objetos en los que se realiza una interacción. Es por ello por lo que en ciertos casos (como al atravesar portales o tocar la lava), el evento correspondiente no ocurre directamente, sino que se espera a la finalización del clip de audio para su ejecución.
 
 <p align="center">
 <img src="images/sonidoejemplo.png">
@@ -143,7 +143,7 @@ Todos los sonidos que hemos incluido en el juego han sido establecidos gracias d
 
 ### ***Gestión de eventos***
 
-Debido a la naturaleza del videojuego desarrollado y los géneros en los que este se puede categorizar, no nos ha resultado necesario la realización de ningún evento propio. En su lugar, nos hemos bastado con los incluídos nativamente en Unity y ligados a sus componentes, especialmente "Collider". Eventos como ***OnColliderEnter*** son utilizados para gestionar la apertura de puertas y el funcionamiento general de los portales. Así mismo, y en la misma sintonía, ***OnColliderExit*** es utilizado para determinar cuando es necesario cerrarlas.
+Debido a la naturaleza del videojuego desarrollado y los géneros en los que éste se puede categorizar, no nos ha resultado necesario la realización de ningún evento propio. En su lugar, nos hemos bastado con los incluídos nativamente en Unity y ligados a sus componentes, especialmente "Collider". Eventos como ***OnColliderEnter*** son utilizados para gestionar la apertura de puertas y el funcionamiento general de los portales. Así mismo, y en la misma sintonía, ***OnColliderExit*** es utilizado para determinar cuando es necesario cerrarlas.
 
 ***OnTriggerEnter*** se utiliza en ***Mundo Lava*** para gestionar el contacto del jugador con el elemento principal del nivel que da nombre al mismo. 
 
@@ -163,9 +163,9 @@ Los aspectos que consideramos positivos en el juego, y que están vinculados con
 
 * El uso de colores no brillantes, para evitar dañarle la vista al jugador.
 
-* El sonido al atravesar portales nos sirve para suavizar el cambio de escenas, ya que, advierte de lo que va a ocurrir, y solo se dá cuando termina la reproducción de este.
+* El sonido al atravesar portales nos sirve para suavizar el cambio de escenas, ya que advierte de lo que va a ocurrir, y solo se da cuando termina la reproducción de éste.
 
-* La camara no se mueve sin la propia intención del usuario. Esta siempre estará vinculada al mismo, ya que si se desplazase por la escena para mostrar diferentes elementos en la misma, se podría producir sensación de mareo.
+* La camara no se mueve sin la propia intención del usuario. Ésta siempre estará vinculada al mismo, ya que si se desplazase por la escena para mostrar diferentes elementos en ella, se podría producir sensación de mareo.
 
 Hemos de destacar, además, la nula implementación de sensores en el videojuego fundamentalmente debido a que, bajo nuestra percepción, resultan poco útiles para la misma por diversos motivos, siendo el principal que desfavorecían la experiencia de usuario en un entorno VR. Sensores como el acelerómetro implicarían la necesidad de que el jugador se desplazara (con los ojos tapados por la VR) si se plantea captar alguna medida. Otros, como el GPS, aportan una medida inicial que de difícil manera se podría trasladar a una aplicación de nuestras características.
 
@@ -173,7 +173,7 @@ Hemos de destacar, además, la nula implementación de sensores en el videojuego
 
 ## Gif animados de ejecución
 
-Esta es la pantalla que aparece al iniciar la aplicación.
+Esta pantalla es la que aparece al iniciar la aplicación.
 
 <p align="center">
 <img src="images/inicio.gif">
@@ -185,13 +185,13 @@ Se puede acceder a controles para comprobar los botones del mando que serán emp
 <img src="images/acceso_controles.gif">
 </p>
 
-Al darle a jugar apareceremos en la sala principal, en ella encontraremos un cartel que nos explicará cual es nuestra misión.
+Al darle a jugar apareceremos en la sala principal, en ella encontraremos un cartel que nos explicará cual será nuestra misión.
 
 <p align="center">
 <img src="images/lobby.gif">
 </p>
 
-Seleccionarémos una de las dos puertas para dar comienzo a nuestra aventura, en este caso se trata del mundo del **bosque**.
+Seleccionaremos una de las dos puertas para dar comienzo a nuestra aventura, en este caso se trata del mundo del **bosque**.
 
 <p align="center">
 <img src="images/entrada_bosque.gif">
@@ -221,7 +221,7 @@ El cuarto se hallará en la cima de las plataformas.
 <img src="images/champi4.gif">
 </p>
 
-El último se conseguirá a través de otro recorrido de plataformas, este nos guiará hacia una cabaña donde encontraremos un agujero que, al dejarnos caer por él, accederemos a un portal que nos conducirá al último champiñon.
+El último se conseguirá a través de otro recorrido de plataformas, éste nos guiará hacia una cabaña donde encontraremos un agujero que, al dejarnos caer por él, accedemos a un portal que nos conducirá al último champiñon.
 
 <p align="center">
 <img src="images/champi5.gif">
@@ -233,7 +233,7 @@ Después de completar este nivel, atravesando su portal morado correspondiente, 
 <img src="images/entrada_lava.gif">
 </p>
 
-Como comentabamos anteriormente, nuestra misión será la de escapar de la lava atravesando el siguiente circuito de obstáculos.
+Como comentábamos anteriormente, nuestra misión será la de escapar de la lava atravesando el siguiente circuito de obstáculos.
 
 <p align="center">
 <img src="images/lava1.gif">
@@ -247,13 +247,13 @@ Como comentabamos anteriormente, nuestra misión será la de escapar de la lava 
 <img src="images/lava3.gif">
 </p>
 
-Por último, volverémos a la sala principal donde verémos que todos los desafios han sido completados y podrémos acceder a la sala final.
+Por último, volverémos a la sala principal donde veremos que todos los desafíos han sido completados y podremos acceder a la sala final.
 
 <p align="center">
 <img src="images/objetivos_completos.gif">
 </p>
 
-Ya solo restará completar el laberinto aleatorio que se haya generado.
+Ya solo resta completar el laberinto aleatorio que se ha generado.
 
 <p align="center">
 <img src="images/laberinto.gif">
