@@ -98,7 +98,7 @@ Una vez completadas las tareas, aparecerá un nuevo portal de color morado que, 
 
 En este mundo el jugador se encontrará en un entorno similar al crater de un volcán. En entorno, predominantemente rocoso, destaca por un elemento en concreto, ubicado este a los pies del jugador; un lago de lava ascendente que, de contactar con el jugador supondrá su derrota en el mundo (que podrá reintentar cuantas veces desee). Para superer este nivel, el usario deberá llegar a un portal de salida antes de que la lava lo engulla. Para ello, no le bastará con ser simplemente rápido, sino también hábil, ya que el usuario deberá ser capaz de superar varias plataformas correctamente si no quiere que un movimiento en falso provoque su precipitación sobre la lava.
 
-Las plataformas mantienen todas formas distintas, además de las distancias de separación objeto de provocar variación a lo largo del desafío. Adicionalmente, algunas de ellas son móviles. Si el jugador llegara a colisionar con estas en su movimiento, se vería irremediablemente empujado a la lava.
+Las plataformas mantienen todas formas distintas así como las distancias de separación, objeto esto último de provocar variación a lo largo del desafío. Adicionalmente, algunas de ellas son móviles. Si el jugador llegara a colisionar con estas en su movimiento, se vería irremediablemente empujado a la lava.
 
 <p align="center">
 <img src="images/lava.png">
