@@ -20,7 +20,7 @@
 
 ## Introducción
 
-El proyecto realizado se trata de un juego VR para dispositivos móviles Android al que hemos denominado ***CyberWork2077***. Se trata de un juego fundamentalmente de plataformas y exploración en la que el jugador deberá desenvolverse en distintos entornos hasta alcanzar la victoria, entendida esta como la finalización del juego en sí.
+El proyecto realizado se trata de un juego VR para dispositivos móviles Android al que hemos denominado ***CyberWork2077***. Se trata de un juego fundamentalmente de plataformas y exploración en el que el jugador deberá desenvolverse en distintos entornos hasta alcanzar la victoria, entendida esta como la finalización del juego en sí.
 
 <div id='id2' />
 
@@ -35,10 +35,10 @@ El juego posee diversas implementaciones y características de interés que ser�
     - El acceso a los mundos es **libre** y se puede realizar en el orden que se desee.
     - Al completar los mundos iniciales, se desbloquea un tercero que supone el **reto final** al usuario.
     - Los mundos son, respectivamente: **Bosque**, **Lava**, **Laberinto**.
-- No existe manera alguna de perder al juego. En caso de no cumpliri los requisitos de alguno de los niveles desarrollados, el sistema dejará al usuario volver a intentarlo.
+- No existe manera alguna de perder al juego. En caso de no cumplir los requisitos de alguno de los niveles desarrollados, el sistema dejará al usuario volver a intentarlo.
 - A parte de desplazarse por tierra en cualquier dirección, el jugador también puede **saltar**. Esta es una mecánica fundamental para superar varias de las plataformas presentes a lo largo del videojuego.
-- El juego ha sido implementado para ser compatible con **Google Cardoboard**, siguiendo las recomendaciones de diseño oficiales, hallables estas en la página oficial y respectiva a la tecnología.
-- Se ha intentado en la medida de lo posible adaptar el juego a las recomendaciones dirigidas a faciltiar la integración del usuario en un entorno virtual.
+- El juego ha sido implementado para ser compatible con **Google Cardboard**, siguiendo las recomendaciones de diseño oficiales, hallables estas en la página oficial y respectiva a la tecnología.
+- Se ha intentado en la medida de lo posible adaptar el juego a las recomendaciones dirigidas a facilitar la integración del usuario en un entorno virtual.
 
 <div id='id3' />
 
@@ -47,7 +47,7 @@ El juego posee diversas implementaciones y características de interés que ser�
 
 Para comenzar a abarcar todas estas cuestiones, debemos tener en cuenta que tanto el desarrollo del juego, como su jugabilidad, han sido ideados para poder ser disfrutados mediante las **Google Cardoboard** o cualquier **otras gafas de RV** que puedan suplir su misma función en un dispositivo móvil. Además, el uso de estas es indispensable, ya que la rotación de la cámara del personaje dependerá del eje de visión del jugador.
 
-El otro elemento fundamentental será un **mando**. Su conexión al móvil debe ser posible a traves de bluethooth y, recomendablemente, debe ser de tipo **PS4** o **Xbox**, ya que el botón que se emplea para realizar la opción de salto y movimiento por el menú principal ha sido ideada ser empleada por los botones más estandararizados para dichos mandos (X/A).
+El otro elemento fundamentental será un **mando**. Su conexión al móvil debe ser posible a traves de bluethooth y, recomendablemente, debe ser de tipo **PS4** o **Xbox**, ya que el botón que se emplea para realizar la opción de salto y movimiento por el menú principal ha sido ideada para ser empleada por los botones más estandararizados para dichos mandos (X/A).
 
 ### Imagen de la configuración del mando
 
@@ -61,7 +61,7 @@ El otro elemento fundamentental será un **mando**. Su conexión al móvil debe 
 
 ### ***Menú***
 
-El menú se corresponde con lo primero que verá el jugador cuando inicie la aplicación. Se trata de una serie de opciones entre las que el jugador podrá elegir, siendo estas: "Jugar", "Controles" y "Salir". La primera y tercera opciones son intuitivas y no requieren explicación. La segunda, por su parte, provoca el desglose de una imagen con la configuración de los controles del mando y su efecto en el videojuego. En cuanto a diseño y estética, el menú muestra el título del juego sobre una serie de imágenes en movimiento de uno de los niveles del videojuego (administradas estas a través de un script), mientras, simultaneamente suena una pieza musical de acompañamiento. En cuanto a implementación, el menú se trata de un canvas que cubre la cámara principal y con el que el jugador puede interactuar a través de "Raycasting". 
+El menú se corresponde con lo primero que verá el jugador cuando inicie la aplicación. Se trata de una serie de opciones entre las que el jugador podrá elegir, siendo estas: "Jugar", "Controles" y "Salir". La primera y tercera opciones son intuitivas y no requieren explicación. La segunda, por su parte, provoca el desglose de una imagen con la configuración de los controles del mando y su efecto en el videojuego. En cuanto a diseño y estética, el menú muestra el título del juego sobre una serie de imágenes en movimiento de uno de los niveles del videojuego (administradas estas a través de un script), mientras simultaneamente suena una pieza musical de acompañamiento. En cuanto a implementación, el menú se trata de un canvas que cubre la cámara principal y con el que el jugador puede interactuar a través del mando. 
 
 <p align="center">
 <img src="images/menu.png">
@@ -70,7 +70,7 @@ El menú se corresponde con lo primero que verá el jugador cuando inicie la apl
 
 ### ***Lobby***
 
-El primer entorno con el que podrá interactuar el jugador después del menú es una "zona central" desde la cual el jugador podrá elegir el mundo que desea empezar. Las conexiones a dichos mundos se realiza a través de una serie de portales que se ubican detrás de unas puertas que reaccionarán cuando el jugador se acerque abriéndose. Existe un total de dos portales, uno verde y otro rojo, y que comunican con los mundos "Bosque" y "Lava" respectivamente. Adicionalmente, en esta zona, cuya apariencia se asemeja al interior de una nave espacial, el jugador podrá ver un panel que marca el progreso de los mundos que ha superado. Cuando lo hayan sido, una tercera puerta, antes bloqueada, será transitable por el jugador, permitiendo inicial el nivel "Laberinto".
+El primer entorno con el que podrá interactuar el jugador después del menú es una "zona central" desde la cual el jugador podrá elegir el mundo que desea empezar. Las conexiones a dichos mundos se realizan a través de una serie de portales que se ubican detrás de unas puertas que reaccionarán cuando el jugador se acerque abriéndose. Existe un total de dos portales, uno verde y otro rojo, y que comunican con los mundos "Bosque" y "Lava" respectivamente. Adicionalmente, en esta zona, cuya apariencia se asemeja al interior de una nave espacial, el jugador podrá ver un panel que marca el progreso de los mundos que ha superado. Cuando lo hayan sido, una tercera puerta antes bloqueada, será transitable por el jugador permitiendo iniciar el nivel "Laberinto".
 
 <p align="center">
 <img src="images/Lobby.png">
