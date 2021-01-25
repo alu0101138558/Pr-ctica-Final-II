@@ -28,7 +28,7 @@ El proyecto realizado se trata de un juego VR para dispositivos móviles Android
 
 El juego posee diversas implementaciones y características de interés que serán presentadas a continuación.
 - Para jugar al juego hace falta el uso de un controlador compatible con **Bluetooth**. La cámara se desplaza acorde a la cabeza del usuario, mientras el desplazamiento se realiza a través de este dispositivo.
-- Al iniciar la aplicación, el jugador se encontrará en un **menú** con distintas opciones. El menú está integrado con VR, por lo que se debe interactuar con el mismo a través de esta tecnología.
+- Al iniciar la aplicación, el jugador se encontrará en un **menú** con distintas opciones. Con las que podrá interactuar a través de un mando.
 - El juego se puede dividir en **distintos niveles y/o mundos**. En cada uno de ellos se le plantea un desafío distinto al judador con objeto de suscitar distintas experiencias y fomentar positivamente la experiencia del usuario.
     - Cada mundo posee una **estética diferente**.
     - Cada mundo tiene sus **propios objetivos**.
