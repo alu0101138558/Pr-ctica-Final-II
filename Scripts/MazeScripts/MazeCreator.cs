@@ -85,7 +85,6 @@ public class MazeCreator : MonoBehaviour
     private int currentRow = 0;
     private int currentColumn = 0;
     private bool courseComplete = false;
-    // Start is called before the first frame update
     void Start()
     {
         mazeCells = new MazeCellHandler[length, width];
@@ -108,8 +107,8 @@ public class MazeCreator : MonoBehaviour
         //huntAndKillAlgorithm
         while (!courseComplete)
         {
-            Kill(); // Will run until it hits a dead end.
-            Hunt(); // Finds the next unvisited cell with an adjacent visited cell. If it can't find any, it sets courseComplete to true.
+            Kill();
+            Hunt();
         }
 
         bool success = false;
